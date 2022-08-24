@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "article"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Title"
+    },
+    "subtitle": {
+      "type": "string",
+      "default": "Subtitle"
+    },
+    "content": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum quam ut tincidunt vestibulum. Suspendisse tempor bibendum porttitor. Mauris blandit mi non sagittis volutpat. Curabitur euismod commodo leo a pharetra. Curabitur volutpat enim non nulla vestibulum, at mattis libero vulputate. Maecenas aliquam nisi turpis, eget pellentesque leo semper non. Suspendisse mollis sapien elit, luctus imperdiet urna rutrum egestas. In ac lectus bibendum elit blandit venenatis sit amet at elit. Sed ultrices suscipit lectus. In eu mi a velit tempus porttitor. Praesent rhoncus enim nec ligula ultrices porttitor. Ut tincidunt sit amet arcu in mollis. In mi risus, commodo quis libero in, finibus consequat est. Nunc sagittis nulla eget nisl fringilla placerat.  Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent lacinia blandit diam nec varius. In eget finibus nibh, et sagittis ipsum. Ut consequat magna eu justo rhoncus, condimentum fermentum risus lobortis. Pellentesque vitae facilisis sem. Duis eget dignissim orci. Proin porta molestie dolor, et tincidunt lacus volutpat sit amet. Vivamus vehicula metus id orci condimentum, quis porta sapien eleifend. In viverra lorem in lacus volutpat, vitae fringilla metus pulvinar. Curabitur sit amet ultricies arcu, id vestibulum ligula. Quisque dictum erat eleifend leo tempor bibendum. Proin lacinia rhoncus massa eget iaculis. Aenean sed arcu nec massa scelerisque efficitur.  Praesent et nibh dignissim, lobortis mi feugiat, convallis urna. Phasellus malesuada hendrerit arcu, a laoreet ex tincidunt id. Aliquam id nulla et mauris aliquam bibendum. Aliquam erat volutpat. Sed ut lacinia ligula. Nullam et odio iaculis, imperdiet ante aliquet, lobortis metus. Morbi ut libero massa."
+    },
+    "publish_date": {
+      "type": "date"
+    }
+  }
+}

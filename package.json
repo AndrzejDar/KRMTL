@@ -1,0 +1,30 @@
+{
+  "name": "KRMTL",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A KRMTL web app",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.2.3",
+    "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/plugin-i18n": "4.2.3",
+    "better-sqlite3": "7.4.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3bd35fcc-66e0-4da4-bbf8-6209e628031c"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
