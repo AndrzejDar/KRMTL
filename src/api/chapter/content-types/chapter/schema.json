@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chapters",
+  "info": {
+    "singularName": "chapter",
+    "pluralName": "chapters",
+    "displayName": "Chapter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "Chapter_Number": {
+      "type": "integer"
+    },
+    "Chapter_Content": {
+      "type": "richtext"
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Novel": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::novel.novel",
+      "inversedBy": "Chapters"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "novels",
+  "info": {
+    "singularName": "novel",
+    "pluralName": "novels",
+    "displayName": "Novel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Default Title",
+      "unique": true
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Chapters": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::chapter.chapter",
+      "mappedBy": "Novel"
+    }
+  }
+}
