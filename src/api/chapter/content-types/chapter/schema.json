@@ -18,7 +18,7 @@
       "unique": false
     },
     "Chapter_Number": {
-      "type": "integer"
+      "type": "biginteger"
     },
     "Chapter_Content": {
       "type": "richtext"

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "article",
     "pluralName": "articles",
-    "displayName": "article"
+    "displayName": "article",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,23 @@
     },
     "publish_date": {
       "type": "date"
+    },
+    "number": {
+      "type": "biginteger"
+    },
+    "number_integer": {
+      "type": "integer"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "slug2": {
+      "type": "uid",
+      "targetField": "title2"
+    },
+    "slug": {
+      "type": "string",
+      "regex": "[가-힣]+"
     }
   }
 }

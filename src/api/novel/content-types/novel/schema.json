@@ -34,6 +34,9 @@
       "relation": "oneToMany",
       "target": "api::chapter.chapter",
       "mappedBy": "Novel"
+    },
+    "Title_Slug": {
+      "type": "string"
     }
   }
 }
