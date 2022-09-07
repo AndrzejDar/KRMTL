@@ -4,10 +4,10 @@ module.exports = ({ env }) => ({
       enabled: true,
       config: {
         contentTypes: {
-          article: {
-            field: 'slug',
-            references: 'title',
-          },
+          Novel: {
+            field: 'Title_Slug',
+            references: 'Title',
+          }, 
         },
       },
     },

@@ -35,7 +35,13 @@
       "target": "api::chapter.chapter",
       "mappedBy": "Novel"
     },
-    "Title_Slug": {
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "novels"
+    },
+    "slug": {
       "type": "string"
     }
   }
